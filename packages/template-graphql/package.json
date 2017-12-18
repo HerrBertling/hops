@@ -6,7 +6,9 @@
   "config": {
     "hops": {
       "browsers": "last 1 Chrome versions",
-      "locations": ["/"],
+      "locations": [
+        "/"
+      ],
       "graphqlUri": "https://www.graphqlhub.com/graphql"
     }
   },
@@ -34,7 +36,7 @@
   "devDependencies": {
     "hops-build": "9.3.1",
     "hops-local-cli": "9.3.0",
-    "jest": "^21.2.1",
+    "jest": "^22.0.1",
     "jest-preset-hops": "9.3.0",
     "react-test-renderer": "^16.0.0"
   },
